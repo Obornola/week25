@@ -1,0 +1,193 @@
+@import '../../style/variables';
+
+.themeBlue {
+    .container {
+        @include flexPart(column);
+
+        .titleCard {
+            @include center();
+            height: 50px;
+            width: 200px;
+            background-color: $topBlue;
+            border: $borderTable;
+            color: $topTextColor;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .priceCard {
+            @include center();
+            height: 100px;
+            width: 200px;
+            background-color: $middleBlue;
+            border: $borderTable;
+            color: $topTextColor;
+
+            span {
+                font-size: 30px;
+            }
+        }
+
+        .speedCard {
+            @include center();
+            height: 50px;
+            width: 200px;
+            background-color: $centerGrey;
+            border: $borderTable;
+            color: $bottomTextColor;
+        }
+
+        .trafficCard {
+            @include center();
+            height: 60px;
+            width: 200px;
+            background-color: $bottomGrey;
+            border: $borderTable;
+            color: $bottomTextColor;
+        }
+    }
+}
+
+.themeGreen {
+    .container {
+        @include flexPart(column);
+
+        .titleCard {
+            @include center();
+            height: 50px;
+            width: 200px;
+            background-color: $topGreen;
+            border: $borderTable;
+            color: $topTextColor;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .priceCard {
+            @include center();
+            height: 100px;
+            width: 200px;
+            background-color: $middleGreen;
+            border: $borderTable;
+            color: $topTextColor;
+
+            span {
+                font-size: 30px;
+            }
+        }
+
+        .speedCard {
+            @include center();
+            height: 50px;
+            width: 200px;
+            background-color: $centerGrey;
+            border: $borderTable;
+            color: $bottomTextColor;
+        }
+
+        .trafficCard {
+            @include center();
+            height: 60px;
+            width: 200px;
+            background-color: $bottomGrey;
+            border: $borderTable;
+            color: $bottomTextColor;
+        }
+    }
+}
+
+.themeRed {
+    .container {
+        @include flexPart(column);
+
+        .titleCard {
+            @include center();
+            height: 50px;
+            width: 200px;
+            background-color: $topRed;
+            border: $borderTable;
+            color: $topTextColor;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .priceCard {
+            @include center();
+            height: 100px;
+            width: 200px;
+            background-color: $middleRed;
+            border: $borderTable;
+            color: $topTextColor;
+
+            span {
+                font-size: 30px;
+            }
+        }
+
+        .speedCard {
+            @include center();
+            height: 50px;
+            width: 200px;
+            background-color: $centerGrey;
+            border: $borderTable;
+            color: $bottomTextColor;
+        }
+
+        .trafficCard {
+            @include center();
+            height: 60px;
+            width: 200px;
+            background-color: $bottomGrey;
+            border: $borderTable;
+            color: $bottomTextColor;
+        }
+    }
+}
+
+.themeBlack {
+    .container {
+        @include flexPart(column);
+
+        .titleCard {
+            @include center();
+            height: 50px;
+            width: 200px;
+            background-color: rgb(0, 0, 0);
+            border: $borderTable;
+            color: $topTextColor;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .priceCard {
+            @include center();
+            height: 100px;
+            width: 200px;
+            background-color: rgb(0, 0, 0);
+            border: $borderTable;
+            color: $topTextColor;
+
+            span {
+                font-size: 30px;
+            }
+        }
+
+        .speedCard {
+            @include center();
+            height: 50px;
+            width: 200px;
+            background-color: $centerGrey;
+            border: $borderTable;
+            color: $bottomTextColor;
+        }
+
+        .trafficCard {
+            @include center();
+            height: 60px;
+            width: 200px;
+            background-color: $bottomGrey;
+            border: $borderTable;
+            color: $bottomTextColor;
+        }
+    }
+}
