@@ -2,13 +2,13 @@ import React from 'react';
 import style from './card.module.scss';
 import CSSModules from 'react-css-modules';
 
-function Card({props, theme}) {
+function Card({title, price, speed, traffic, theme, isSelected}) {
   return (
-    <div styleName={theme}>
-      <div className={style.titleCard}>{props.title}</div>
-      <div className={style.priceCard}>руб <span>{props.price}</span> /мес</div>
-      <div className={style.speedCard}>{props.speed}</div>
-      <div className={style.trafficCard}>{props.traffic}</div>
+    <div styleName={theme} className={isSelected?style.selected:null}>
+      <div className={style.titleCard}>{title}</div>
+      <div className={style.priceCard}>{price} <span>руб/мес</span></div>
+      <div className={style.speedCard}>{speed}</div>
+      <div className={style.trafficCard}>{traffic}</div>
     </div>
   );
 }
